@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+
+   
+<div class="container">
+
+    <div class="input_container">
+        <input type="text" class="city" placeholder="Enter a City">
+        <button class="submit">Go</button>
+    </div>
+    
+
+    <div class="wrapper">
+            <div class="inner">
+                
+
+                <div class="data">
+                    <p id="dis"><span>City :</span><span class="cityName"></span></p>
+                    <p id="dis"><span>Country :</span><span class="country"></span></p>
+                    <p id="dis"><span>Temprature :</span><span class="current_temp"></span>°C</p>
+                    <p id="dis"><span>Feels like :</span><span class="feelsLike"></span>°C</p>
+                    <p id="dis"><span>Condition :</span><span class="condition"></span></p>
+                </div>
+                    
+            </div>
+        <div class="inner">
+            <div class="image"></div>
+            <div class="data2">
+                <p id='inner'>local time</p>
+                <p id='plus'><span class="localtime" ></span></p>
+                <p id='inner'>wind speed</p>
+                <p id='plus'><span  class="windspeed" ></span>Km/h</p>
+                <p id='inner'>humidity</p>
+                <p id='plus'><span class="humidity" ></span>%</p>
+
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+<div class="alert"></div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
